@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const urlResource = "http://localhost:4000/api/jugadores";
+const urlResource = "https://tpi-dds-backend.onrender.com/api/jugadores";
 
 async function Buscar(Nombre) {
   const resp = await axios.get(urlResource, {

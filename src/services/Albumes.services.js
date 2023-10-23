@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const urlResource = "http://localhost:4000/api/albumes";
+const urlResource = "https://tpi-dds-backend.onrender.com/api/albumes";
 
 
 async function Buscar(Titulo) {
